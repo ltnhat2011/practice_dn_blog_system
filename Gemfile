@@ -26,11 +26,15 @@ gem "jbuilder", "~> 2.7"
 gem "bcrypt", "~> 3.1.13"
 gem "bootstrap-sass", "3.4.1"
 gem "rails-i18n"
+gem "jquery-rails", "~> 4.3", ">= 4.3.1"
 # Use Active Storage variant
 # gem "image_processing", "~> 1.2"
 gem "faker", "~> 1.6", ">= 1.6.6"
 gem "will_paginate", "~> 3.3"
 gem "will_paginate-bootstrap", "~> 1.0", ">= 1.0.2"
+gem "mini_magick"
+gem "carrierwave"
+gem "ckeditor"
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", ">= 1.4.2", require: false
 

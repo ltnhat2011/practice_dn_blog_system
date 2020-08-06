@@ -146,3 +146,52 @@ input {
 width: auto;
 margin-left: 0;
 }
+.cover_photo_show {
+  width: 725px;
+  height: 420px;
+  margin-bottom: 10px;
+}
+.img_thumbnail {
+  width: 100%;
+  height: 200px;
+  padding: 0.25rem;
+  background-color: white;
+  border: 1px solid gray-medium-light;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  transition: 0.5s;
+}
+.submit {
+  margin-top: 30px;
+}
+.cp_blog {
+  padding-bottom: 30px;
+}
+.title_blog{
+  padding-top: 5px !important;
+  font-weight: 700;
+  color: color_black !important;
+  font-size: 16px;
+  height: 50px;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.crop_text_2 {
+  -webkit-line-clamp: 2;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.cover_photo_show {
+  width: 725px;
+  height: 420px;
+  margin-bottom: 10px;
+}
+.img-avatar{
+  width: 350px;
+  height: 314px;
+  margin-left: 20px;
+}

@@ -1,0 +1,24 @@
+blogs:
+  show:
+    take_5: 5
+    take_3: 3
+  all_blog:
+    take_6: 6
+uploaders:
+  picture:
+    thumb_w: 118
+    thumb_h: 100
+    content: 800
+VALID_EMAIL_REGEX: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
+maxName: 200
+maxEmail: 200
+minPassword: 6
+maximum_length_name: 100
+maximum_length_description: 60000
+maximum_length_address: 250
+minximum_vote: 0
+maximum_length_cost: 250
+paginate: 5
+paginate_blog: 3
+blog_s: "Blog"
+blogs_s: "blogs"

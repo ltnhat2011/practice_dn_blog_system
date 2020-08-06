@@ -1,0 +1,101 @@
+vi:
+  common:
+    basic_title: "Blog Hệ Thống"
+  layouts:
+    header:
+      logo: "Blog Hệ Thống Tin Tức"
+    navigation:
+      en: "EngLish"
+      vi: "Tiếng Việt"
+      home: "Trang chủ"
+      new: "Tạo Blog"
+      about: "Thông tin"
+      login: "Đăng nhập"
+      menu: "Mục lục"
+      user: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
+      logout: "Đăng xuất"
+    footer:
+      welcome: "Chào mừng bạn đến Blog của chúng tôi!"
+      content: "Thật vui được gặp bạn"
+      signup: "Đăng ký"
+    # footer:
+    #   Privacy: "Chính sách sử dụng"
+    #   Terms: "Điều khoản sử dụng"
+    #   statistic: "Thống kê"
+  static_pages:
+    home:
+      title: "Trang chủ"
+  blogs:
+    form:
+      title: Điền chủ đề cho Blog của bạn
+      upload_cover_photo: Tải lên ảnh bìa
+    index:
+      title_index: Tất cả Blog
+      all_blog: TẤT CẢ BLOG
+    new:
+      title_new: Tạo Blog mới
+      btn_create: Tạo và Chia sẻ Blog
+      text: Tạo và chia sẻ Blog với mọi người
+    show:
+      title_show: Blog
+      authors: "Tác giả:"
+      posted: "Thời gian:"
+      dd_edit: Chỉnh sửa
+      dd_delete: Xóa
+      delete_confirm: Bạn chắc chắn muốn xóa chứ?
+      like: "lượt thích"
+    create:
+      success_create: Tạo Blog thành công
+      failed_create: Tạo Blog thất bại, vui lòng thử lại
+    edit:
+      title_edit: Sửa Blog
+      btn_edit: Kết thúc chỉnh sửa
+      text: Chỉnh sửa blog của bạn
+    update:
+      success_update: Cập nhập Blog thành công
+      failed_update: Cập nhập Blog thất bại
+    destroy:
+      success_destroy: Xóa Blog thành công
+      failed_destroy: Xóa Blog thất bại
+    all_blog:
+      last_blog: NHỮNG BLOG MỚI NHẤT
+      last_place: NHỮNG BLOG HOT
+      view_more: Xem thêm >>
+  users:
+    new:
+      title: "Đăng ký"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận"
+      create: "Tạo tài khoản"
+      change_s: "Lưu thay đổi"
+  shared:
+    error_messages:
+      form_contant: "Nội dung biểu mẫu"
+      error: "lỗi"
+  sessions:
+    new:
+      title: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      login: "Đăng nhập"
+      remember: "Ghi nhớ"
+      new: "Tạo mới tài khoản"
+      signup: "Đăng ký"
+      loginwith: "Hoặc đăng nhập với"
+  controllers:
+    user:
+      please_ln: "Bạn Cần Đăng Nhập"
+    session:
+      err: "Thông tin đăng nhập không chính xác"
+  create_success: "Tạo thành công"
+  create_fail: "Tạo thất bại"
+  delete_success: "Xóa thành công"
+  delete_fail: "Xóa thất bại"
+  update_success: "Cập nhật thành công"
+  not_found: "Không tìm thấy"
+  login_first: Vui lòng đăng nhập

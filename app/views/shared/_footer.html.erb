@@ -1,0 +1,14 @@
+<% if logged_in? %>
+	<%= render "blogs/all_blog"  %>
+<% else %>
+<div class="masthead textarea center">
+  <div class="container ">
+      <div class="intro-text">
+        <div class="intro-lead-in"><%= t("layouts.footer.welcome") %></div>
+        <div class="intro-heading text-uppercase"><%= t("layouts.footer.content") %></div>
+        <%= link_to t("layouts.footer.signup"), signup_path , class: "btn btn-primary btn-xl text-uppercase js-scroll-trigger" %>
+      </div>
+  </div>
+</div>
+<%= render "blogs/all_blog"  %>
+<% end %>

@@ -1,0 +1,22 @@
+<%= form_for @blog do |f| %>
+  <%= render "shared/error_messages", object: f.object %>
+
+  <%= f.text_field :title, class: "form-control", placeholder: t(".title"), required: true %></br>
+
+  <span class="btn btn-large btn-info btn-file">
+    <%= t ".upload_cover_photo" %>
+    <%= f.file_field :cover_photo, id: "cover_photo_upload" %>
+  </span>
+  <img id="img_prev"/>
+  <%= f.hidden_field :cover_photo_cache %>
+  <br><br>
+
+
+  <div class="field">
+    <%= f.text_area :body, class: "ckeditor", required: true %>
+  </div>
+
+  <div class="submit">
+    <%= f.submit yield(:button_text), class: "btn-primary" %>
+  </div>
+<% end %>

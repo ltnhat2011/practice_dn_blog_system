@@ -1,34 +1,103 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
-  title: "Blog System"
+  common:
+    basic_title: "Blog System"
+  layouts:
+    header:
+      logo: "Blog System"
+    navigation:
+      en: "Tiếng Anh"
+      vi: "Vietnamese"
+      home: "HOME"
+      new: "CREATE BLOG"
+      about: "ABOUT"
+      login: "LOGIN"
+      menu: "MENU"
+      user: "USER"
+      account: "ACCOUNT"
+      profile: "PROFILE"
+      setting: "SETTING"
+      logout: "LOGOUT"
+    footer:
+      welcome: "Welcome To Our Blog!"
+      content: "It's Nice To Meet You"
+      signup: "Sign Up"
+    # footer:
+    #   Privacy: "Privacy Policy"
+    #   Terms: "Terms of Use"
+    #   statistic: "Statistic"
+  static_pages:
+    home:
+      title: "Home"
+  blogs:
+    form:
+      title: Fill title for your blog
+      upload_cover_photo: Upload cover photo
+    index:
+      title_index: All Blog
+      all_blog: All Blog
+    new:
+      title_new: New Blog
+      btn_create: Create and Share
+      text: Create and Share to everyone
+    show:
+      title_show: Blog
+      authors: "Authors:"
+      posted: "Posted:"    
+      dd_edit: Edit
+      dd_delete: Delete
+      delete_confirm: Do you want to delete it?
+      like: "Likes"
+    create:
+      success_create: Create Success
+      failed_create: Create Failed
+    edit:
+      title_edit: Edit Blog
+      btn_edit: Edit Blog
+      text: Edit your blog
+    update:
+      success_update: Update Success
+      failed_update: Update Failed
+    destroy:
+      success_destroy: Delete Success
+      failed_destroy: Delete Failed
+      success: Create Success
+      failed: Create Failed
+    all_blog:
+      last_blog: BLOG New
+      last_place: HOT Blog
+      view_more: View More >>
+  users:
+    new:
+      title: "SignUp"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Confirmation"
+      create: "Create my account"
+      change_s: "Save changes"
+  shared:
+    error_messages:
+      form_contain: "The form contains "
+      error: "error"
+  sessions:
+    new:
+      title: "Login"
+      email: "Email"
+      password: "Password"
+      login: "Login"
+      remember: "Remember"
+      new: "Create your account"
+      signup: "SignUp"
+      loginwith: "Or login with"
+  controllers:
+    user:
+      please_ln: "Login Required"
+    session:
+      err: "Login information is incorrect"
+  create_success: "Created success"
+  create_fail: "Created fail"
+  delete_success: "Deleted success"
+  delete_fail: "Deleted fail"
+  update_success: "Updated success"
+  not_found: "Not found"
+  login_first: Please Login
